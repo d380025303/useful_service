@@ -1,0 +1,5 @@
+# Project exclude paths
+/base/target/
+/dbBase/target/
+/dingTalk/target/
+/starter/target/

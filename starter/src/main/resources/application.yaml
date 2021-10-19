@@ -1,0 +1,25 @@
+server:
+  address: 0.0.0.0
+  port: 5000
+spring:
+  datasource:
+    driverClassName: org.sqlite.JDBC
+    url: jdbc:sqlite:D:\dev\mine\useful_service\mine.db
+    username:
+    password:
+    type: org.apache.tomcat.jdbc.pool.DataSource
+    tomcat:
+      initialSize: 2
+      minIdle: 2
+daixinmini:
+  ding-talk:
+    accessToken:
+      -
+        appKey:
+        appSecret:
+        agentId:
+        type: robot
+debug: false
+
+
+
